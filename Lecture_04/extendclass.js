@@ -8,11 +8,11 @@ class Media {
 class Song extends Media {
     constructor(songData) {
         super(songData);
-        this.artlist = songData.artlist;
+        this.artist = songData.artist;
     }
 }
 const mySong = new Song({
-    artlist: "Queen" ,
+    artist: "Queen" ,
     name: "Bohemian Rhapsody",
     publishDate: 1975,
 });

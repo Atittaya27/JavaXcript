@@ -1,6 +1,6 @@
 const person ={
-    name: 'Amonwan',
-    weight: 60
+    name: 'Anirach',
+    weight: 85
 }
 
 function sayHello(){
@@ -15,4 +15,4 @@ const add =(a,b) => a+b;
 
 const status = true;
 
-MediaSourceHandle.exports = {person, sayHello, cube, add, status}
+module.exports = {person, sayHello, cube, add, status}

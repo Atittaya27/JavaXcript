@@ -17,7 +17,7 @@ try {
 
 console.log("\n********Throwing in Try..Catch********\n")
 try {
-    thorw "An exception that is throw ever time";
+    throw "An exception that is throw ever time";
 } catch (ex) {
     console.log("Got an error");
     logError(ex);
@@ -32,6 +32,6 @@ try {
 } finally {
     console.log("Code that always will run");
 }
-function hello( {
+function hello(){
     console.log("\n********Throwing Exceptions********\n");
-})
+}

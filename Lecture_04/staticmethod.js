@@ -1,6 +1,6 @@
 class Dog {
     constructor(name){
-        thia._name = name;
+        this._name = name;
     }
 
 
